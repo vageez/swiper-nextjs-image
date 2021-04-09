@@ -1,0 +1,1 @@
+# swiper nextjs next/image
