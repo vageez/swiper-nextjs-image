@@ -7,7 +7,7 @@ import { rotator2 } from '../data/rotator2'
 
 const Index = () => (
     <div>
-        <h1 style={{textAlign:'center'}}>Crave</h1>
+    <h1 style={{ textAlign: 'center' }}>{process.env.NEXT_PUBLIC_APP_NAME}</h1>
         <PromoTeaser items={items} />
         <div style={{height:'20px'}} />
         <Rotator rotator={rotator} />
